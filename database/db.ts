@@ -1,1 +1,1 @@
-// will use ArangoDB
+// switched to postgresql, arangodb not yet supported on mac m1 unfortunately
