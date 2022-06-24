@@ -4,7 +4,10 @@
   "description": "React todo-list with ArangoDB",
   "main": "server/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client-dev": "npx webpack --watch",
+    "server-dev": "npx nodemon --watch server server/index.ts",
+    "build": "npx webpack",
+    "start": "node server/index.ts"
   },
   "repository": {
     "type": "git",
