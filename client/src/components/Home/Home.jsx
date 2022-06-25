@@ -6,7 +6,7 @@ import Tasks from './Tasks/Tasks';
 
 const Home = () => {
   return (
-    <div className="Home" style={{display: 'flex', flexDirection: 'row', border: '4px solid red', flex: '1', height: '94vh', width: '100vw'}}>
+    <div id="Home" >
       <SideMenu />
       <Tasks />
     </div>
