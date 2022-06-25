@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const router = require('./routes.ts');
+const routes = require('./routes.js');
 const compression = require('compression');
 
 const app = express();
@@ -8,7 +8,7 @@ const app = express();
 app.use(compression());
 app.use(express.static(path.join(__dirname, '../client/dist')));
 app.use(express.json());
-app.use(router);
+app.use(routes);
 
 const port = 3145;
 app.listen(port, () => {

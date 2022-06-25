@@ -1,0 +1,15 @@
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#searchDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.NavSearch {
+  width: 100%;
+  position: relative;
+}
